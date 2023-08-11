@@ -14,6 +14,7 @@ import { getUser } from './utils/users_service'
 import { useState } from 'react'
 import NavBar from './components/NavBar'
 import { Box, useTheme, Grid } from '@mui/material'
+import LoggedOutPage from './pages/LoggedOutPage'
 
 function App() {
   const theme = useTheme()
@@ -42,6 +43,11 @@ function App() {
                     exact
                     path='/login'
                     element={<LogingPage onLogin={login}></LogingPage>}
+                  />
+                  <Route
+                    exact
+                    path='/'
+                    element={<LoggedOutPage></LoggedOutPage>}
                   />
                   <Route
                     exact

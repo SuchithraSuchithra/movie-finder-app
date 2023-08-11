@@ -130,7 +130,7 @@ export default function SignUp() {
             </Button>
             <div className='login-container'>
               <Link className='login-link' href='/login' variant='body2'>
-                {'Already a memeber? Log in'}
+                {'Already a member? Log in'}
               </Link>
             </div>
           </Box>
