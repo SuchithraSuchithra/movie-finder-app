@@ -12,6 +12,7 @@ import {
 
 import AutoStoriesIcon from '@mui/icons-material/AutoStories'
 import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount'
+import Typography from '@mui/material/Typography'
 
 export default function BrowseMenu() {
   const navigate = useNavigate()
@@ -39,7 +40,7 @@ export default function BrowseMenu() {
         endIcon={<ExpandMoreIcon />}
         onClick={handleClick}
       >
-        BROWSE
+        <Typography variant='h7'>BROWSE</Typography>
       </Button>
       <Menu
         id='simple-menu'

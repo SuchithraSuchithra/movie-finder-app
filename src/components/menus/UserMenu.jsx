@@ -37,7 +37,7 @@ export default function UserMenu({ onLogOut, user }) {
             <Typography variant='body2'>{user.email.split('@')[0]}</Typography>
           }
         >
-          <Avatar className='picture' src='' />
+          <Avatar>{user.email[0].toUpperCase()}</Avatar>
         </Tooltip>
       </IconButton>
       <Menu

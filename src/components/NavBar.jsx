@@ -13,13 +13,6 @@ import MoviesSearch from './search/MoviesSearch'
 import UserMenu from './menus/UserMenu'
 
 export default function NavBar({ onLogOut, user }) {
-  //   let userMenuComponent
-  //   if (Auth.loggedIn()) {
-  //     userMenuComponent = <LoggedInUserMenu />
-  //   } else {
-  //     userMenuComponent = <VisitorMenu />
-  //   }
-
   return (
     <AppBar position='fixed'>
       <Toolbar>
@@ -53,10 +46,6 @@ export default function NavBar({ onLogOut, user }) {
               <MoviesSearch></MoviesSearch>
               <UserMenu onLogOut={onLogOut} user={user}></UserMenu>
             </Box>
-            {/* <Box className={classes.rightBox}>
-              <SearchForm keyword={props.searchKeyword} />
-              <Box className={classes.userMenuBox}>{userMenuComponent}</Box>
-            </Box> */}
           </Grid>
           <Grid item xs={0} md={2} />
         </Grid>

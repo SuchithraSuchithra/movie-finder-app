@@ -67,7 +67,9 @@ export default function PersonPage() {
         </div>
         <div className='second-column-content'>
           {Object.keys(person).map((key) => (
-            <p>{key.replace(/_/g, ' ')}</p>
+            <p>
+              {(key.charAt(0).toUpperCase() + key.slice(1)).replace(/_/g, ' ')}
+            </p>
           ))}
         </div>
         <div className='third-column-content'>
