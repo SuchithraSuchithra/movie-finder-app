@@ -4,19 +4,13 @@ Movie Finder app helps to find the movie related information. All the informatio
 
 It has the following functionalities
 
-### Browse Movies
-
-### Browse Cast/Crew
-
-### Search Movies
-
-### Movie Details
-
-### Cast/Crew Details
-
-### Upcoming Movies Details
-
-### Logged out pages
+- Browse Movies
+- Browse Cast/Crew
+- Search Movies
+- Movie Details
+- Cast/Crew Details
+- Upcoming Movies Details
+- Logged out pages
 
 Logged out page shows just the upcoming movies and login link
 
@@ -70,16 +64,16 @@ Logged out page shows just the upcoming movies and login link
 
 #### Presentation Layer
 
-Material UI + React + JavaScript
-HTML + CSS
+- Material UI + React + JavaScript
+- HTML + CSS
 
 #### Business Layer
 
-Express + Mongoose
+- Express + Mongoose
 
 #### Data Sources
 
-TMDB API + MongoDB
+- TMDB API + MongoDB
 
 ## Getting Started
 
@@ -92,36 +86,16 @@ https://trello.com/b/B2qcghGt/moviefinder-project
 
 ## Next Steps
 
-#### Pagination
+- Pagination
 
-Pagination for all pages
+- User specific operation -Wishlist, Recommendation, Follow, Like, Timeline
 
-#### User specific operation
+- User Settings Manage Account - Update profile pic, Change password
 
-Wishlist
+- Movie Reviews - Add review to movie details
 
-Recommendation
+- Managing review - ban/Unban reviewers
 
-Follow
+- Own Data Source - Maintain own database on RDS and images on S3
 
-Like
-
-Timeline
-
-#### User Settings
-
-Manage Account - Update profile pic, Change password
-
-#### Movie Reviews
-
-Add review to movie details
-
-Managing review - ban/Unban reviewers
-
-#### Own Data Source
-
-Maintain own database on RDS and images on S3
-
-#### Logged out page
-
-Add more features
+- Logged out page -Add more features
