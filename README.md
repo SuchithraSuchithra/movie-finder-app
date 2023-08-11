@@ -14,6 +14,21 @@ It has the following functionalities
 
 Logged out page shows just the upcoming movies and login link
 
+## Technologies used
+
+#### Presentation Layer
+
+- Material UI + React + JavaScript
+- HTML + CSS
+
+#### Business Layer
+
+- Express + Mongoose
+
+#### Data Sources
+
+- TMDB API + MongoDB
+
 ## Screenshots
 
 ### Login
@@ -59,21 +74,6 @@ Logged out page shows just the upcoming movies and login link
 ### Movie Details Page
 
 ![Cast](/screenshots/movie-details-page.png)
-
-## Technologies used
-
-#### Presentation Layer
-
-- Material UI + React + JavaScript
-- HTML + CSS
-
-#### Business Layer
-
-- Express + Mongoose
-
-#### Data Sources
-
-- TMDB API + MongoDB
 
 ## Getting Started
 
