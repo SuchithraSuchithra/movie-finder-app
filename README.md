@@ -22,16 +22,56 @@ Logged out page shows just the upcoming movies and login link
 
 ## Screenshots
 
+### Login
+
 ![Login](/screenshots/login-page.png)
+
+### Signup
+
 ![Signup](/screenshots/signup-page.png)
+
+### Home
+
 ![Home](/screenshots/home-page.png)
-![Logged out](/screenshots/home-page.png)
+
+### Logged out
+
+![Loggedout](/screenshots/home-page.png)
+
+### Search Page
+
+![Search ](/screenshots/search-page.png)
+
+### Cast/Crew List Page
+
+![Cast](/screenshots/cast-crew-list.png)
+
+### Cast/Crew Details Page
+
+![Cast](/screenshots/person-details-page.png)
+
+### Browse Option Page
+
+![Cast](/screenshots/browse-option-page.png)
+
+### Genre List Page
+
+![Cast](/screenshots/genre-list-page.png)
+
+### Movie List Page
+
+![Cast](/screenshots/movie-list-page.png)
+
+### Movie Details Page
+
+![Cast](/screenshots/movie-details-page.png)
 
 ## Technologies used
 
 #### Presentation Layer
 
 Material UI + React + JavaScript
+HTML + CSS
 
 #### Business Layer
 

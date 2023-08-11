@@ -39,7 +39,7 @@ export default function PersonSearchResultPage() {
             </div>
           ) : (
             <>
-              <h1 className='sub-header'>Person Search Results</h1>
+              <h1 className='sub-header'>Search Results</h1>
               <div className='list-container'>
                 {personList.map(
                   (person) =>
