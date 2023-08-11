@@ -1,0 +1,20 @@
+.mainGridItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.titleBox {
+  margin-right: 2em;
+}
+
+.rightBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
